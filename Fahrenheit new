@@ -1,0 +1,11 @@
+def far(s,e,w):
+    
+    while(s <= e):
+        c = int((5/9)*(s-32))
+        print(s,"\t",c)
+        
+        s = s + w
+s = int(input())
+e = int(input())
+w = int(input())
+far(s,e,w)
