@@ -1,0 +1,10 @@
+def printTable(start,end,step):
+    for start in range(start,end+1,step):
+        c=(start-32)*5/9
+        d=int(c)
+        print(start,' ',d)
+	   
+s = int(input())
+e = int(input())
+step = int(input())
+printTable(s,e,step)
