@@ -1,0 +1,14 @@
+def function(n) :
+    p = len(str(n))
+    sum = 0
+    total = n
+    for x in range(p):
+        sum = sum + ((n%10)**p)
+        n = n//10
+    return sum
+n = int(input())
+sum = function(n)
+if sum == n :
+    print("true")
+else :
+    print("false")
